@@ -19,19 +19,6 @@ function mapBoard(n) {
     divs[i].style.width = "11.1%";
     divs[i].style.backgroundColor = getRandomColor();
     document.body.appendChild(divs[i])
-    // if (i== n-1) {
-    //   document.body.appendChild(divs[i]);
-    //   divs[i].appendChild(divs[i-1])
-    // } else if (i == 0) {
-    //
-    // } else {
-    //   divs[i].appendChild(divs[i-1]);
-    //}
-    // if (i % 2 == 0) {
-    //   divs[i].style.backgroundColor = "black";
-    // } else {
-    //   divs[i].style.backgroundColor = "red";
-    // }
   };
 }
 
